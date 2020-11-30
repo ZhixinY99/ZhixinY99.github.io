@@ -1,0 +1,399 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+/*constant constant constant constant element*/
+.nav {
+    position: relative;
+    top:70px;
+    width: 1000px;
+    height: 100px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CD_emo {
+    position: absolute;
+    left: 200px;
+}
+
+.film_emo {
+    position: absolute;
+    left: 1150px;
+}
+.nav a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+
+
+/*middle parts as a big container*/
+
+.middle {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    top: 50px;
+    left: 30px;
+}
+
+.background {
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+.middle_intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.film_container {
+    position: relative;
+    left: 200px;
+    bottom: 375px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.small_text {
+    position: relative;
+    bottom: 230px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*bottom parts as a big container*/
+.bottom_intro {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 30px;
+}
+
+
+/*separate from above*/
+/*custom middle info images*/
+
+.fuji_roll {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+}
+
+.camera_100 {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 340px;
+}
+
+.gold_roll {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+}
+
+.camera_105R {
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    left: 360px;
+}
+
+.max_roll {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+}
+
+.camera_738 {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 340px;
+    top: -20px;
+}
+
+/*custom middle part small text information*/
+
+.fuji_info {
+    font-size: 16px;
+    font-family: 'Pangolin', cursive;
+    position: absolute;
+    left: 410px;
+    top: 40px;
+    color:#31B731;
+    letter-spacing: 2px;
+}
+.cam100_info {
+    font-size: 16px;
+    font-family: 'Pangolin', cursive;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-evenly;
+    left: 750px;
+    top: 70px;
+    color:#624C33;
+    letter-spacing: 2px;
+}
+
+.gold_info {
+    font-size: 16px;
+    font-family: 'Pangolin', cursive;
+    position: absolute;
+    left: 420px;
+    top: 40px;
+    color:#DB7E18;
+    letter-spacing: 2px;
+}
+.cam105R_info {
+    font-size: 16px;
+    font-family: 'Pangolin', cursive;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 770px;
+    top: 70px;
+    color:#D15B41;
+    letter-spacing: 2px;
+}
+
+.max_info {
+    font-size: 16px;
+    font-family: 'Pangolin', cursive;
+    position: absolute;
+    left: 410px;
+    top: 30px;
+    color:#E2AD11;
+    letter-spacing: 2px;
+}
+.cam738_info {
+    font-size: 16px;
+    font-family: 'Pangolin', cursive;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 800px;
+    top: 70px;
+    color:#B69D67;
+    letter-spacing: 2px;
+}
+
+
+/*custom bottom buttom buttom buttom buttom info*/
+/*left text*/
+.fuji_intro {
+    position: relative;
+    left: 100px;
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.fuji_title {
+    font-size: 37px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #008200;
+}
+
+.fuji_feature {
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #088D08;
+}
+
+.gold_intro {
+    position: relative;
+    left: 100px;
+    width: 2000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gold_title {
+    font-size: 37px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #D77509;
+}
+
+.gold_feature {
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #AC6516;
+}
+
+.max_intro {
+    position: relative;
+    left: 100px;
+    width: 2300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.max_title {
+    font-size: 37px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #C09106;
+}
+
+.max_feature {
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #977512;
+}
+
+/*middle image*/
+.fuji_sample {
+    position: relative;
+    left: 200px;
+    width: 400px;
+    height: 530px;
+}
+.gold_sample {
+    position: relative;
+    left: 190px;
+    width: 400px;
+    height: 560px;
+}
+.max_sample {
+    position: relative;
+    left: 200px;
+    width: 400px;
+    height: 560px;
+}
+
+/*right text*/
+.cam100_intro {
+    position: relative;
+    left: 300px;
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.cam100_title {
+    font-size: 37px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #D2634B;
+}
+
+.cam100_add{
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    color: #E47A05;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.cam100_comment {
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #844848;
+    line-height: 30px;
+}
+
+
+.cam105R_intro {
+    position: relative;
+    left: 300px;
+    width: 2000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.cam105R_title {
+    font-size: 37px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #C02929;
+}
+
+.cam105R_add{
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    color: #429442;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.cam105R_comment {
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #AA3333;
+    line-height: 30px;
+}
+
+.cam738_intro {
+    position: relative;
+    left: 300px;
+    width: 2000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.cam738_title {
+    font-size: 37px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #CC6C03;
+}
+
+.cam738_add{
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    color: #059BBC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.cam738_comment {
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #AC6518;
+    line-height: 30px;
+}
